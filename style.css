@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header {
+    background-color: #333;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    justify-content: center;
+}
+
+header ul li {
+    font-weight: bold;
+    margin: 24px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+
+.container {
+    background: #d2d2d2;
+    max-width: 500px;
+    border-radius: 2px;
+    margin: 32px auto;
+    padding: 24px;
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form input {
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.form input:last-child {
+    background: #333;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+}
+
+.resultadoCep {
+    text-align: left;
+}
+
+.resultadoBtc p {
+    text-align: center;
+    font-size: 2rem;
+}
